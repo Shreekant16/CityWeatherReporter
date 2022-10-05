@@ -13,7 +13,7 @@ def home():
     city = entry.get()
     url = f"https://weather-request.p.rapidapi.com/weather/{city}"
     headers = {
-        "X-RapidAPI-Key": "f2b1123709msh2a86b29c16fae58p10b040jsn7d22ba3230b8",
+        "X-RapidAPI-Key": "Your Key",
         "X-RapidAPI-Host": "weather-request.p.rapidapi.com"
     }
     response = requests.request("GET", url, headers=headers)
